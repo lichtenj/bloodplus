@@ -1,0 +1,5 @@
+AuthName "Welcome to the BloodPlus testing page."
+AuthType Basic
+AuthUserFile /var/www/cgi-bin/BloodPlus/.htpasswd
+AuthGroupFile /dev/null
+require user bloodplus
